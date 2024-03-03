@@ -2,7 +2,7 @@
 
 <h3 align="center">AI/ML Enthusiast 🚀 | Intern at Raptee Energy 🏍️ | Competitive programming ❤️</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mathavkrishnan" alt="mathavkrishnan" /></a> </p>
+<hr>
 
 - 🔭 I’m currently working on the **Automating Video uploads to social media** 
 
