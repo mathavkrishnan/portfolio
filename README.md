@@ -1,16 +1,16 @@
-### Hi there 👋
+<h3 align="center">Mathav Krishnan</h3>
 
-<!--
-**mathavkrishnan/mathavkrishnan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3 align="center">AI/ML Enthusiast 🚀 | Intern at Raptee Energy 🏍️ | Competitive programming ❤️</h3>
 
-Here are some ideas to get you started:
+- 🔭 I’m currently working on the **Automating Video uploads to social media** 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🌱 I’m currently learning **Transfer learning and scarpy**
+
+- 💬 Ask me about **TensorFlow and Deep Learning**
+
+- 📫 You can reach me at **s.mathavkrishnan@gmail.com**
+
+<be>
+
+
+
