@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **Transfer learning and scarpy**
 
-- 💬 Ask me about **TensorFlow and Deep Learning**
+- 💬 Ask me about **Flutter, TensorFlow and Deep Learning**
 
 - 📫 You can reach me at **s.mathavkrishnan@gmail.com**
 
