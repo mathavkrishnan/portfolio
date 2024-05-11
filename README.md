@@ -1,6 +1,6 @@
 <h3 align="center">Mathav Krishnan</h3>
 
-<h3 align="center">AI/ML Enthusiast 🚀 | Intern at Raptee Energy 🏍️ | Competitive programming ❤️</h3>
+<h3 align="center">AI/ML Enthusiast 🚀 | Competitive programming ❤️</h3>
 
 <hr>
 
