@@ -4,9 +4,9 @@
 
 <hr>
 
-- 🔭 I’m currently working on the **Automating Video uploads to social media** 
+- 🔭 I’m currently working on the **Becoming colloborator in PYENV** 
 
-- 🌱 I’m currently learning **Transfer learning and scarpy**
+- 🌱 I’m currently learning **PYENV library**
 
 - 💬 Ask me about **Flutter, TensorFlow and Deep Learning**
 
