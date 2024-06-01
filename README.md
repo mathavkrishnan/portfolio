@@ -4,7 +4,7 @@
 
 <hr>
 
-- 🔭 I’m currently working on the **Becoming colloborator in PYENV** 
+- 🔭 I’m currently working on the **FLAC** 
 
 - 🌱 I’m currently learning **PYENV library**
 
