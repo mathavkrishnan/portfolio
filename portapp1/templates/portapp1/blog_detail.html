@@ -1,0 +1,23 @@
+<!-- portapp1/templates/portapp1/blog_detail.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ post.title }}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'portapp1/blog_style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <article class="blog-post">
+            <h1 class="title">{{ post.title }}</h1>
+            <p class="date">{{ post.published_date }}</p>
+            <div class="content">
+                {{ post.content|safe|linebreaks }}
+            </div>
+            <a href="{% url 'home' %}" class="back-link">Back to Blog</a>
+        </article>
+    </div>
+</body>
+</html>

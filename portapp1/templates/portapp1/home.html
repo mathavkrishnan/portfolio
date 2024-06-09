@@ -1,0 +1,48 @@
+<!-- portapp1/templates/portapp1/home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portapp1</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'portapp1/style.css' %}">
+</head>
+<body>
+    <h1>Who am I?</h1>
+    
+    <nav>
+        
+    </nav>
+    
+    <div class="profile">
+        <img src="{% static 'portapp1/profile.png' %}" alt="Profile Photo">
+        <p>👋 Software Engineer at Raptee, specializing in app development. 💻 Skilled in Flutter, Firebase, MySQL, Java, Django, and Python. 🚀 Building innovative solutions to enhance user experiences. 🌟 Follow me and let's connect! #SoftwareEngineer #AppDeveloper #TechEnthusiast</p>
+    </div>
+    
+    <h2>Skills</h2>
+    <ul class="skills">
+        {% for skill in skills %}
+            <li>{{ skill.name }} - {{ skill.level }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>My Blogs</h2>
+    <ul>
+        {% for post in posts %}
+            <li>
+                <a href="{% url 'blog_detail' post.pk %}">{{ post.title }}</a>
+                <p>{{ post.published_date }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <!-- Social Media Links -->
+    <div class="social-media">
+        <a href="https://github.com/mathavkrishnan/mathavkrishnan" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/mathav-krishnan-a67806219/" target="_blank">LinkedIn</a> |
+        <a href="https://kaggle.com/yourusername" target="_blank">Kaggle</a>
+    </div>
+
+</body>
+</html>

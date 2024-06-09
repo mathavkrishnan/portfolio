@@ -1,0 +1,121 @@
+/* portfolio/static/portfolio/style.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #007bff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #ffffff;
+    margin: 1rem 0;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.profile img:hover {
+    transform: scale(1.1);
+}
+
+.profile p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* Social Media Links */
+.social-media {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.social-media a {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+
+/* Projects Section */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.project {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+/* Skills Section */
+.skills {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.skills li {
+    background-color: #007bff;
+    color: white;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.skills li:hover {
+    background-color: #0056b3;
+}
