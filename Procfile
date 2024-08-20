@@ -1,1 +1,1 @@
-web: gunicorn mathavkrishnan.wsgi
+web: gunicorn portfolio.wsgi
