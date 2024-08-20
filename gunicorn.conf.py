@@ -1,5 +1,5 @@
 # gunicorn.conf.py
-bind = "0.0.0.0:8000"
+bind = "0.0.0.0"
 workers = 3
 #user = "myusername"
 #group = "mygroup"
@@ -9,4 +9,4 @@ loglevel = "info"
 #pidfile = "/path/to/gunicorn.pid"
 daemon = True
 
-wsgi_app = "portfolio.wsgi:application"
+wsgi_app = "portfolio.wsgi:app"
