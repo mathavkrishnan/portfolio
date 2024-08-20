@@ -4,9 +4,9 @@ FROM python:3.11-slim
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR /portfolio
 # Copy the current directory contents into the container at /app
-COPY . /app/
+COPY . /portfolio/
 # Copy the requirements.txt file
 COPY requirements.txt .
 # Install any needed packages specified in requirements.txt
