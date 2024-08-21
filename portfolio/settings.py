@@ -28,6 +28,8 @@ SECRET_KEY = 'django-insecure-5d$$mxe=ypvz+g&cl0n-oyfjklg+k8shx#w*-11ad8ml39@kjf
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = ['https://*.mathavkrishnan.tech','https://*.127.0.0.1']
+
 
 # Application definition
 
